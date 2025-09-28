@@ -28,6 +28,10 @@
   <p>
     Jako ćwiczenie postaram się zbudować prostego bloga na temat HTML. W kolejnych wpisach będę opisywać najważniejsze elementy oraz przykłady ich użycia.
   </p>
-  <a href="podstrona.html">Przejdź do zadanie6podstrona.html o HTML więcej informacji</a>
+  <h3>
+  <a href="zadanie6podstrona.html">Przejdź do zadanie6podstrona.html po więcej informacji</a>
+  <p>
+  <a href="onet.pl">Przejdź do onet.pl po więcej bieżących informacji o świecie</a>
+  </h3>
 </body>
 </html>
