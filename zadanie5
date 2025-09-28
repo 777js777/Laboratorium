@@ -1,0 +1,14 @@
+onet.pl
+Podczas sprawdzania domeny onet.pl za pomocą narzędzia dnschecker, zaobserwowałem, że w różnych lokalizacjach na świecie pojawia się wiele adresów IP oznaczonych jako „resolved”. Oznacza to, że serwery DNS poprawnie tłumaczą nazwę domeny na adres IP.
+Wielokrotne adresy IP wskazują na zastosowanie mechanizmów takich jak load balancing czy Content Delivery Network (CDN). 
+Dzięki temu strona onet.pl jest dostępna szybko i niezawodnie dla użytkowników z różnych części świata, ponieważ ruch kierowany jest na najbliższy lub najmniej obciążony serwer.
+Podsumowując, obecność wielu adresów IP dla jednej domeny świadczy o jej optymalizacji pod kątem wydajności i dostępności globalnej.
+
+nasa.com
+Podczas testu domeny nasa.com za pomocą dnschecker zauważyłem, że w lokalizacji Singapur status był „not resolved”. Oznacza to, że tamtejszy serwer DNS nie potrafił przetłumaczyć nazwy domeny na adres IP.
+Taka sytuacja może wynikać z błędów konfiguracyjnych, tymczasowych problemów po stronie serwera DNS lub celowej blokady. W efekcie, użytkownicy korzystający z tego serwera nie mają dostępu do strony nasa.com.
+
+goggle.com
+Zaobserwowany przypadek, w którym domena goggle.com jest rozwiązywana („resolved”) tylko w jednej lokalizacji (Singapur), podczas gdy w innych miejscach na świecie pozostaje nierozwiązana („not resolved”),
+wskazuje na ograniczoną dostępność tej strony. Może to oznaczać, że właściciel domeny celowo udostępnia ją tylko wybranym użytkownikom lub że konfiguracja DNS jest nieprawidłowa
+i strona nie jest globalnie dostępna. W praktyce, użytkownicy spoza Singapuru nie mają możliwości wejścia na goggle.com, co może być efektem celowych działań lub błędów technicznych.
