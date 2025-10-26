@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rejestracja>
+    <osoba id="1">
+        <imie>Anna</imie>
+        <nazwisko>Kowalska</nazwisko>
+        <plec>kobieta</plec>
+        <wiek>28</wiek>
+    </osoba>
+    <osoba id="2">
+        <imie>Jan</imie>
+        <nazwisko>Nowak</nazwisko>
+        <plec>mezczyzna</plec>
+        <wiek>35</wiek>
+    </osoba>
+</rejestracja>
