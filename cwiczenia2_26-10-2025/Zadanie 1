@@ -1,0 +1,28 @@
+Technologie i techniki internetowe
+26.10.2025
+Zadanie 1.
+Laboratorium
+Cel i kontekst:
+Celem ćwiczenia jest określenie czasu pobierania pliku o zadanej wielkości przy różnych przepustowościach łączy sieciowych
+lub wielkości pliku możliwego do ściągnięcia przy danej przepustowości. Pozwala to zrozumieć zależność pomiędzy teoretyczną
+przepustowością kanału a faktycznym czasem transferu danych, który jest zależny od wielu czynników — w tym narzutu protokołów warstwowych modelu OSI.
+Przepustowość (Bandwidth) – maksymalna liczba bitów, które mogą być przesłane przez kanał transmisyjny w jednostce czasu, wyrażana w bitach na sekundę (b/s).
+Opóźnienie (Latency) – czas, jaki upływa między wysłaniem pierwszego bitu a jego odebraniem po stronie odbiorcy.
+Narzut protokołów – dodatkowa objętość danych związana z nagłówkami i stopkami ramki, pakietu lub segmentu (np. Ethernet, IP, TCP).
+Treść zadania: Oblicz teoretyczny czas potrzebny do pobrania pliku lub wielkość pliku dla parametrów podanych przez prowadzącego.
+
+Przykład:
+Wielkość pliku: 1 GB Przepustowość: 10 Mb/s
+W jakim czasie pobierzemy plik.
+Uwaga: wynik należy skorygować o narzut Ethernet/IP/TCP (rzędu kilku procent) i ewentualne retransmisje (przyjąć 1%)
+
+Rozwiązanie dla przyjętych danych:
+
+Wielkość pliku: 2 GB = 2 000 000 000 bajtów = 16 000 000 000 bitów (konwertuje jednostke na bity)
+Przepustowość: 10 Mb/s = 10 000 000 BITÓW (tak samo konwertujena bity)
+Narzut ethernet/IP/TCP ustalam na poziomie: 5%
+Retransmisje na poziomie: 1%
+zatem korekcja przepustowości po spadku o 6% będzie wynosić 0,94x10 000 000 bitów= 9 400 000 bitów czyli efektywna przepustowość
+
+Aby policzyć w jakim czasie pobierzemy plik wystarczy podzielić wielkośc pliku przez przepustowość skorygowaną o narzut i retransmisje czyli:
+16 000 000 000 podzielić po 9 400 000 = 1702,127659574468085 sekund, czyli w przybliżeniu 28 minut i 22 sekundy.
