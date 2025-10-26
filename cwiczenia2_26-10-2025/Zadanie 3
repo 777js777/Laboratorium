@@ -1,4 +1,5 @@
-Zadanie 3
+Zadanie 3 - ZADANIE WYKONANE NA - MacBook Air, macOS: Ventura 13.7.8 (22H730)
+
 Cel i kontekst:
 Celem ćwiczenia jest poznanie działania systemu DNS (Domain Name System) w praktyce oraz zrozumienie, że komputer zapamiętuje odwiedzone adresy stron w lokalnej pamięci podręcznej (cache DNS).
 Treść zadania:
@@ -15,3 +16,15 @@ Odpowiedz na pytania:
 1. Czym jest pamięć podręczna DNS?
 2. Dlaczego komputer przechowuje odwiedzone adresy?
 Załącz zrzut ekranu uzyskanych wyników (wystarczy 1).
+
+
+ROZWIĄZANIE:
+Proszę zapoznać się ze screenshotami o nazwie:
+Zadanie3 macOS_first_screenshot
+i
+Zadanie3 macOS_second_screenshot
+
+WNIOSKI:
+W systemie macOS zawartość pamięci podręcznej DNS nie jest w pełni jawna – logi mDNSResponder nie pokazują nazw domen w sposób czytelny (ze względów prywatności).
+Dla potwierdzenia działania systemu DNS użyto polecenia dig wikipedia.org, które zwróciło adres IP przypisany do domeny.
+Kolejne wywołanie tego samego polecenia odbyło się szybciej, co potwierdza zapisanie adresu w lokalnym cache DNS.
