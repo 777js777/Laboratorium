@@ -31,3 +31,9 @@ Spsób połącznia (np. T568A, prosty)
 RJ-45 „1” RJ-45 „2” 11 22 33
 .... ...
               
+
+
+WNIOSKI:
+Za mocne nacięcie izolacji przy wykonywaniu zadania, spowodowało to nacięcie kabelków wewnątrz i późniejsze problemy zarówno z montażem co doprowadziło też do uniemożliwienia odczytu błędów z testera.
+ZALECENIA NA PRZYSZŁOŚĆ:
+Obciąć izolacje delikatniej i z lepszym wyczuciem.
